@@ -7,6 +7,7 @@ lint:
   rules:
     no-unused-components: warning
 referenceDocs:
+  corsProxyUrl: https://cors.redoc.ly/  
   htmlTemplate: ./docs/index.html
   theme:
     colors:
@@ -16,5 +17,4 @@ referenceDocs:
     languages:  # Array of language config objects; indicates in which languages to generate code samples.
       - lang: curl # Can be one of the following supported languages: "curl", "Node.js", "JavaScript".
       - lang: "Node.js"
-      - lang: "JavaScript"
-      
+      - lang: "JavaScript"  

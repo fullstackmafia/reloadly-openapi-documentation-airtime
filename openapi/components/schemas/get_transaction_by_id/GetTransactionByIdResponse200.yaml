@@ -1,0 +1,98 @@
+type: object
+properties:
+  transactionId:
+    description: Indicates the unique identification number of a top-up
+    type: integer
+    example: 
+  status:
+    description: Indicates the status of a transaction. See more info here - include link.
+    type: string
+    example: 
+  operatorTransactionId:
+    description: Indicates the transaction identification number assigned by the operator of the receiving mobile number.
+    type: string
+    example:
+  customIdentifier:
+    description: This is the top-up's reference that is to be assigned by the sender.
+    type: string
+    example: 
+  recipientPhone:
+    description: This indicates the top-up receiver's mobile number.
+    type: string
+    example: 
+  senderPhone:
+    description: This indicates the sender's mobile number.
+    type: string
+    example: 
+  countryCode:
+    description: Indicates if the operator has any existing bundle discounts.
+    type: string
+    example: 
+  operatorId:
+    description:  The identification number of the receiving mobile number's operator.
+    type: string
+    example: 
+  operatorName:
+    description: The name of the receiving mobile number's operator.
+    type: string
+    example: 
+  discount:
+    description: Indicates if there was a discount on the top-up made and at what rate.
+    type: string
+    example: 
+  discountCurrencyCode:
+    description: Indicates the currency code of the receiving mobile number.
+    type: string
+    example: 
+  requestedAmount:
+    description: Indicates the top-up amount sent by the originating account.
+    type: string
+    example: 
+  requestedAmountCurrencyCode:
+    description: Indicates the currency code of the originating account.
+    type: string
+    example: 
+  deliveredAmount:
+    description: Indicates the top-up amount received by the receiving mobile number.
+    type: string
+    example: 
+  deliveredAmountCurrencyCode:
+    description: Indicates the currency in which the top-up was delivered.
+    type: string
+    example: 
+  transactionDate:
+    description: Indicates the date and time the top-up was made.
+    type: string
+    example: 
+  pinDetail:
+    type: object
+    description: Contains information on how to process the PIN on the physical SIM. Note that this is only for operators that support PIN top-up.
+    properties:
+      serial:
+        description: Indicates the serial code of the PIN top-up.
+        type: string
+        example:
+      info:
+        description: Indicates information on how to utilize the top-up.
+        type: string
+        example: 
+      value:
+        description: Indicates additional information on the PIN.
+        type: string
+        example:
+      code:
+        description: Indicates the code that is to be used to activate the top-up.
+        type: string
+        example:
+      ivr:
+        description: Indicates the number to call for an interactive voice response.
+        type: string
+        example: 
+      validity:
+        description: Indicates the validity of the PIN.
+        type: string
+        example:
+  balanceInfo:
+    type: object
+    description: Contains information of the top-up sender's account balance.
+    

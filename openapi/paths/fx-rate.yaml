@@ -4,15 +4,15 @@ post:
   summary: Fetch FX rate by operator ID
   description: Retrieve the foreign exchange rate details of an operator by making a request with its identification number.
   operationId: fx-rate
-  parameters:
-  - in: header
-    name: Authorization
-    schema:
-      type: string
-      description: Your access token is required as a bearer token in the request's header.
-    required: true
-  # security: 
-  #   - BearerToken: []
+  # parameters:
+  # - in: header
+  #   name: Authorization
+  #   schema:
+  #     type: string
+  #     description: Your access token is required as a bearer token in the request's header.
+  #   required: true
+  security: 
+    - BearerToken: []
   responses:
     '200':
       description: Successfully retrieved details of an operator's foreign exchange rate.

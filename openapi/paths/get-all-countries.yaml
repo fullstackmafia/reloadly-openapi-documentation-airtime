@@ -4,15 +4,15 @@ get:
   summary: Get all countries
   description: Retrieve the details of every country where a top-up can be made.
   operationId: get-all-countries
-  # security: 
-  #   - BearerToken: []
-  parameters:
-    - in: header
-      name: Authorization
-      schema:
-        type: string
-        description: Your access token is required as a bearer token in the request's header
-      required: true
+  security: 
+    - BearerToken: []
+  # parameters:
+    # - in: header
+    #   name: Authorization
+    #   schema:
+    #     type: string
+    #     description: Your access token is required as a bearer token in the request's header
+    #   required: true
   responses:
     '200':
       description: Successfully retrieved details of all countries

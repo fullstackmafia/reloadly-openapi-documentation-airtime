@@ -29,14 +29,14 @@ get:
       required: false
       schema:
         type: boolean
-    - in: header
-      name: Authorization
-      schema:
-        type: string
-        description: Your access token is required as a bearer token in the request's header.
-      required: true
-  # security: 
-  #   - BearerToken: []
+    # - in: header
+    #   name: Authorization
+    #   schema:
+    #     type: string
+    #     description: Your access token is required as a bearer token in the request's header.
+    #   required: true
+  security: 
+    - BearerToken: []
   responses:
     '200':
       description: Successfully retrieved details of a mobile number

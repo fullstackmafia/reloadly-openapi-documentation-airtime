@@ -4,8 +4,8 @@ get:
   summary: Get the status of a top-up
   description: Retrieve the real-time status of a top-up by making a request with its identification number.
   operationId: top-ups-status
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: path
       name: transactionId

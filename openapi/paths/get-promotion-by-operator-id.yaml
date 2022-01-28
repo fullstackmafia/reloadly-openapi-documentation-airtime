@@ -4,8 +4,8 @@ get:
   summary: Get promotions by operator ID
   description: Retrieve the details of every promotion being ofered by an operator by making a request with the operator's identification number.
   operationId: get-promotion-by-operator-id
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

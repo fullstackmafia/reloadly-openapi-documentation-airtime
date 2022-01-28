@@ -4,8 +4,8 @@ get:
   summary: Get all operators
   description: Retrieve the details of every operator that can be used to send or receive a top-up.
   operationId: get-all-operators
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

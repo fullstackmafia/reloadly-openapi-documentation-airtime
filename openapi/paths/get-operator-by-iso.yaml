@@ -47,8 +47,8 @@ get:
         type: boolean
         description:  Indicates if any airtime and data bundles being offered by the operator should be returned as a response. Default value is true
       required: false
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   responses:
     '200':
       description: Successfully retrieved details of an operator

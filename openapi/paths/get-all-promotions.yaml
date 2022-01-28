@@ -4,8 +4,8 @@ get:
   summary: Get all promotions
   description: Retrieve the details of every promotion being issued by any operator available on Reloadly.
   operationId: get-all-promotions
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

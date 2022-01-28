@@ -4,8 +4,8 @@ get:
   summary: Get all commissions
   description: Retrieve the details of every discount being issued by all the airtime and data operators available on Reloadly.
   operationId: get-all-commissions
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

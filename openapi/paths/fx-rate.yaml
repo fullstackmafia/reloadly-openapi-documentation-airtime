@@ -4,8 +4,8 @@ post:
   summary: Fetch FX rate by operator ID
   description: Retrieve the foreign exchange rate details of an operator by making a request with its identification number.
   operationId: fx-rate
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   responses:
     '200':
       description: Successfully retrieved details of an operator's foreign exchange rate.

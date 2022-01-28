@@ -4,8 +4,8 @@ get:
   summary: Get transaction by ID
   description: Retrieve the details of a top-up transaction by making a request with its identification number.
   operationId: get-transaction-by-id
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

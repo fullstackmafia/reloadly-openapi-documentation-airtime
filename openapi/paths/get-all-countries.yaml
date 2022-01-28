@@ -4,8 +4,8 @@ get:
   summary: Get all countries
   description: Retrieve the details of every country where a top-up can be made.
   operationId: get-all-countries
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

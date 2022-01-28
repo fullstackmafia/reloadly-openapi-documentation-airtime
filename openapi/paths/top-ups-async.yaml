@@ -4,8 +4,8 @@ post:
   summary: Make an asynchronous top-up
   description: Retrieve a transaction identification number that solely provides details and tracks the status of your top-up.
   operationId: top-ups-async
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   responses:
     '200':
       description: Successfully retrieved a transaction identification number.

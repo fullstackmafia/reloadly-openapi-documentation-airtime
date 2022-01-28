@@ -4,8 +4,8 @@ post:
   summary: Echo test
   description: Receive the exact message you've sent
   operationId: echo
-  security:
-    - BearerToken: []
+  # security:
+  #   - BearerToken: []
   responses:
     '200':
       description: OK

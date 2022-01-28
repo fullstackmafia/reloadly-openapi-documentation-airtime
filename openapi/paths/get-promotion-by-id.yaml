@@ -4,8 +4,8 @@ get:
   summary: Get promotion by ID
   description: Retrieve the details of a promotion by making a request with its identification number.
   operationId: get-promotion-by-id
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

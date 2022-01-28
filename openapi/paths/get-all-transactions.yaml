@@ -4,8 +4,8 @@ get:
   summary: Get all transactions
   description: Retrieve the details of every top-up transaction carried out on your Reloadly account.
   operationId: get-all-transactions
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

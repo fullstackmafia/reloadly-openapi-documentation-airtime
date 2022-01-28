@@ -4,8 +4,8 @@ get:
   summary: Get promotions by ISO code
   description: Retrieve the details of every promotion going on in a country by making a request with its ISO code.
   operationId: get-promotion-by-iso
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

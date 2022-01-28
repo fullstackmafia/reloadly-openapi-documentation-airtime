@@ -4,8 +4,8 @@ post:
   summary: Make a top-up
   description: Recharge a mobile number with airtime or data by making a request with its operator details.
   operationId: top-ups
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   responses:
     '200':
       description: Successfully made a top-up to a mobile number.

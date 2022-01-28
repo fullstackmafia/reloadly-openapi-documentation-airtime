@@ -4,8 +4,8 @@ post:
   summary: Create an access token
   description: Reloadly's authentication flow uses the OAuth 2.0 standard. With this endpoint, you can create an access token that will be used when making requests through our API endpoints or SDKs.
   operationId: access-token
-  security: 
-    - OAuth2Credentials: []
+  # security: 
+  #   - OAuth2Credentials: []
   responses:
     '200':
       description: Successfully created an access token

@@ -4,8 +4,8 @@ get:
   summary: View an account's balance
   description: Retrieve the details of an account's balance.
   operationId: accounts-balance
-  security: 
-    - BearerToken: []
+  # security: 
+  #   - BearerToken: []
   parameters:
     - in: header
       name: Authorization

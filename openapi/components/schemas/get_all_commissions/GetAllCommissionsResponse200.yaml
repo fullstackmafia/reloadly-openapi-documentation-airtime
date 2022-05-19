@@ -10,43 +10,43 @@ properties:
           type: object
           properties:
             operatorId:
-              description: Indicates the operator's identification number.
+              description: This indicates the operator's identification number.
               type: string
               example: 
             name:
-              description: Indicates the operator's name.
+              description: This indicates the operator's name.
               type: string
               example: 
             countryCode:
-              description: Indicates the ISO code of the country where the operator is registered.
+              description: This indicates the ISO code of the country where the operator is registered.
               type: string
               example:
             status:
-              description: Indicates if the operator has any existing discounts.
+              description: This indicates if the operator has any existing discounts.
               type: boolean
               example: 
             data:
-              description: Indicates if the operator has any existing data discounts.
+              description: This indicates if the operator has any existing data discounts.
               type: boolean
               example: 
             bundle:
-              description: Indicates if the operator has any existing bundle discounts.
+              description: This indicates if the operator has any existing bundle discounts.
               type: boolean
               example: 
         percentage:
-          description: Indicates the percentage discount for every top-up.
+          description: This indicates the percentage discount for every top-up.
           type: integer
           example:
         internationalPercentage:
-          description: Indicates the percentage discount for international top-ups.
+          description: This indicates the percentage discount for international top-ups.
           type: integer
           example:
         localPercentage:
-          description: Indicates the percentage discount for local top-ups.
+          description: This indicates the percentage discount for local top-ups.
           type: integer
           example: 
         updatedAt:
-          description: Indicates the time the discount was first created by the operator.
+          description: This indicates the time the discount was first created by the operator.
           type: integer
           example: 
           

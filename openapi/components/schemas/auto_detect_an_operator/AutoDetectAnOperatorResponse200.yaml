@@ -13,93 +13,93 @@ properties:
     type: string
     example: 
   bundle:
-    description: Indicates if the operator has any existing bundle plans.
+    description: This indicates if the operator has any existing bundle plans.
     type: boolean
     example: 
   data:
-    description: Indicates if the operator has any existing data plans.
+    description: This indicates if the operator has any existing data plans.
     type: boolean
     example: 
   pin:
-    description: Indicates if the operator supports PIN transactions.
+    description: This indicates if the operator supports PIN transactions.
     type: boolean
     example: 
   supportsLocalAmounts:
-    description: Indicates if the operator can make top-ups in local amounts.
+    description: This indicates if the operator can make top-ups in local amounts.
     type: boolean
     example:
   denominationType:
-    description: Indicates if the operator makes top-ups through a fixed amount or a range of amounts. Options include FIXED and RANGE.
+    description: This indicates if the operator makes top-ups through a fixed amount or a range of amounts. Options include FIXED and RANGE.
     type: string
     example: 
   senderCurrencyCode:
-    description: Indicates the currency code of the account where the top-up is being made from.
+    description: This indicates the currency code of the account where the top-up is being made from.
     type: string
     example: 
   senderCurrencySymbol:
-    description: Indicates the currency symbol of the account where the top-up is being made from.
+    description: This indicates the currency symbol of the account where the top-up is being made from.
     type: string
     example: 
   destinationCurrencyCode:
-    description: Indicates the currency code of the mobile number where the top-up is being sent to.
+    description: This indicates the currency code of the mobile number where the top-up is being sent to.
     type: string
     example: 
   destinationCurrencySymbol:
-    description: Indicates the currency symbol of the mobile number where the top-up is being sent to.
+    description: This indicates the currency symbol of the mobile number where the top-up is being sent to.
     type: string
     example: 
   commission:
-    description: Indicates if the operator offers a commission or discount.
+    description: This indicates if the operator offers a commission or discount.
     type: integer
     example:
   internationalDiscount:
-    description: Indicates if the operator offers a discount for top-ups made to foreign numbers.
+    description: This indicates if the operator offers a discount for top-ups made to foreign numbers.
     type: integer
     example: 
   localDiscount:
-    description: Indicates if the operator offers a discount for top-ups made to local numbers.
+    description: This indicates if the operator offers a discount for top-ups made to local numbers.
     type: integer
     example:
   mostPopularAmount:
-    description: Indicates the amount that is often used to make a top-up.
+    description: This indicates the amount that is often used to make a top-up.
     type: integer
     example: 
   minAmount:
-    description: Indicates the minimum amount that can be used to make a top-up.
+    description: This indicates the minimum amount that can be used to make a top-up.
     type: integer
     example: 
   maxAmount:
-    description: Indicates the maximum amount that can be used to make a top-up.
+    description: This indicates the maximum amount that can be used to make a top-up.
     type: integer
     example: 
   localMinAmount:
-    description: Indicates the minimum amount that can be used to make a top-up locally.
+    description: This indicates the minimum amount that can be used to make a top-up locally.
     type: integer
     example: 
   localMaxAmount:
-    description: Indicates the maximum amount that can be used to make a top-up locally.
+    description: This indicates the maximum amount that can be used to make a top-up locally.
     type: integer
     example: 
   country:
     type: object
     properties:
       isoName:
-        description:  Indicates the country's ISO code.
+        description:  This indicates the country's ISO code.
         type: string
         example: 
       name:
-        description: Indicates the country's name.
+        description: This indicates the country's name.
         type: string
         example: 
   fx:
     type: object
     properties:
       rate:
-        description: Indicates the FX rate at which the top-up will be made.
+        description: This indicates the FX rate at which the top-up will be made.
         type: integer
         example: 
       currencyCode:
-        description: Indicates the code of the currency at which the top-up will be made.
+        description: This indicates the code of the currency at which the top-up will be made.
         type: string
         example: 
   logoUrls:
@@ -107,30 +107,30 @@ properties:
     type: array
     example:
   fixedAmounts:
-    description: Indicates the fixed amounts that a top-up can be made in with the operator.
+    description: This indicates the fixed amounts that a top-up can be made in with the operator.
     type: array
     example: 
   fixedAmountsDescriptions:
-    description: Indicates the descriptions for the operator's fixed amounts.
+    description: This indicates the descriptions for the operator's fixed amounts.
     type: array
     example: 
   localFixedAmounts:
-    description: Indicates the local fixed amounts that a top-up can be made in with the operator.
+    description: This indicates the local fixed amounts that a top-up can be made in with the operator.
     type: array
     example:
   localFixedAmountsDescriptions:
-    description: Indicates the descriptions for the operator's local fixed amounts.
+    description: This indicates the descriptions for the operator's local fixed amounts.
     type: array
     example: 
   suggestedAmounts:
-    description: Indicates the suggested amounts that can be used to make a top-up with the operator.
+    description: This indicates the suggested amounts that can be used to make a top-up with the operator.
     type: array
     example: 
   suggestedAmountsMap:
-    description: Indicates the suggested amounts that can be mapped through.
+    description: This indicates the suggested amounts that can be mapped through.
     type: array
     example: 
   promotions:
-    description: Indicates the promotions currently offered by the operator.
+    description: This indicates the promotions currently offered by the operator.
     type: array
     example: 

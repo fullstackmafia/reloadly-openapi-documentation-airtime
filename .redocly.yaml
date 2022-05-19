@@ -7,6 +7,7 @@ lint:
   rules:
     no-unused-components: warning
 referenceDocs:
+  showConsole: true
   corsProxyUrl: https://cors.redoc.ly/  
   htmlTemplate: ./docs/index.html
   theme:
